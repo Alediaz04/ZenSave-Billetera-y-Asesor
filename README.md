@@ -3,7 +3,8 @@
 Plataforma web de organización financiera personal con asesoría inteligente potenciada por **Google Gemini IA**. Diseñada con estética premium, modo oscuro y experiencia de usuario fluida.
 
 ---
-
+###INICIAR PROYECTO
+python -m uvicorn backend.main:app --reload --port 300
 ## Features
 
 - **Autenticación segura** — JWT con cifrado de contraseñas (PBKDF2 + bcrypt legacy)
